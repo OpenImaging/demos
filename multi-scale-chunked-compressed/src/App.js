@@ -44,6 +44,9 @@ function App() {
               <HStack divider={<StackDivider borderColor="gray.600" />}>
                 <Box>
                   <Heading as="h5" size="md">Small</Heading>
+                    <Link href="https://github.com/OpenImaging/miqa/tree/master/sample_data/1_type1" target="_blank" rel="noopener noreferrer">
+                    </Link>
+                  <Link color="teal.500" href="https://github.com/OpenImaging/miqa/tree/master/sample_data/1_type1" target="_blank" rel="noopener noreferrer">Source</Link>
                 </Box>
                 <Box>
                   <Heading as="h5" size="md">Medium</Heading>
