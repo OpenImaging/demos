@@ -17,7 +17,7 @@ import {
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 
 import smallThumb from './images/small-thumb.png'
-//import mediumThumb from './images/medium-thumb.png'
+import mediumThumb from './images/medium-thumb.png'
 
 function App() {
   return (
@@ -58,7 +58,7 @@ function App() {
                 <Box>
                   <Heading as="h5" size="md">Medium</Heading>
                     <Link href="https://kitware.github.io/itk-vtk-viewer/app/?image=https://openimaging.github.io/demos/multi-scale-chunked-compressed/build/data/medium.nii.gz" target="_blank" rel="noopener noreferrer">
-                      <Image boxSize="sm" src={smallThumb} alt="Medium test data"/>
+                      <Image boxSize="sm" src={mediumThumb} alt="Medium test data"/>
                         <Text as="em">Size: </Text><Text>256 x 320 x 192 voxels</Text>
                         <Text as="em">Spacing: </Text><Text>0.9 x 0.9 x 0.9 mm</Text>
                     </Link>

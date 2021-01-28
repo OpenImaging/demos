@@ -1,0 +1,513 @@
+{
+    "metadata": {
+        ".zattrs": {},
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "medium.nii.gz/.zarray": {
+            "chunks": [
+                64,
+                64,
+                64
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "zstd",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<u2",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                192,
+                320,
+                256
+            ],
+            "zarr_format": 2
+        },
+        "medium.nii.gz/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "z",
+                "y",
+                "x"
+            ],
+            "direction": [
+                [
+                    -0.0,
+                    -1.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    -0.0,
+                    1.0
+                ],
+                [
+                    1.0,
+                    0.0,
+                    -0.0
+                ]
+            ]
+        },
+        "scale_1/.zattrs": {},
+        "scale_1/.zgroup": {
+            "zarr_format": 2
+        },
+        "scale_1/medium.nii.gz/.zarray": {
+            "chunks": [
+                64,
+                64,
+                64
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "zstd",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<u2",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                96,
+                160,
+                128
+            ],
+            "zarr_format": 2
+        },
+        "scale_1/medium.nii.gz/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "z",
+                "y",
+                "x"
+            ],
+            "direction": [
+                [
+                    -0.0,
+                    -1.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    -0.0,
+                    1.0
+                ],
+                [
+                    1.0,
+                    0.0,
+                    -0.0
+                ]
+            ]
+        },
+        "scale_1/x/.zarray": {
+            "chunks": [
+                128
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                128
+            ],
+            "zarr_format": 2
+        },
+        "scale_1/x/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "x"
+            ]
+        },
+        "scale_1/y/.zarray": {
+            "chunks": [
+                160
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                160
+            ],
+            "zarr_format": 2
+        },
+        "scale_1/y/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "y"
+            ]
+        },
+        "scale_1/z/.zarray": {
+            "chunks": [
+                96
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                96
+            ],
+            "zarr_format": 2
+        },
+        "scale_1/z/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "z"
+            ]
+        },
+        "scale_2/.zattrs": {},
+        "scale_2/.zgroup": {
+            "zarr_format": 2
+        },
+        "scale_2/medium.nii.gz/.zarray": {
+            "chunks": [
+                64,
+                64,
+                64
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "zstd",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<u2",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                48,
+                80,
+                64
+            ],
+            "zarr_format": 2
+        },
+        "scale_2/medium.nii.gz/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "z",
+                "y",
+                "x"
+            ],
+            "direction": [
+                [
+                    -0.0,
+                    -1.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    -0.0,
+                    1.0
+                ],
+                [
+                    1.0,
+                    0.0,
+                    -0.0
+                ]
+            ]
+        },
+        "scale_2/x/.zarray": {
+            "chunks": [
+                64
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                64
+            ],
+            "zarr_format": 2
+        },
+        "scale_2/x/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "x"
+            ]
+        },
+        "scale_2/y/.zarray": {
+            "chunks": [
+                80
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                80
+            ],
+            "zarr_format": 2
+        },
+        "scale_2/y/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "y"
+            ]
+        },
+        "scale_2/z/.zarray": {
+            "chunks": [
+                48
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                48
+            ],
+            "zarr_format": 2
+        },
+        "scale_2/z/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "z"
+            ]
+        },
+        "scale_3/.zattrs": {},
+        "scale_3/.zgroup": {
+            "zarr_format": 2
+        },
+        "scale_3/medium.nii.gz/.zarray": {
+            "chunks": [
+                64,
+                64,
+                64
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "zstd",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<u2",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                24,
+                40,
+                32
+            ],
+            "zarr_format": 2
+        },
+        "scale_3/medium.nii.gz/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "z",
+                "y",
+                "x"
+            ],
+            "direction": [
+                [
+                    -0.0,
+                    -1.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    -0.0,
+                    1.0
+                ],
+                [
+                    1.0,
+                    0.0,
+                    -0.0
+                ]
+            ]
+        },
+        "scale_3/x/.zarray": {
+            "chunks": [
+                32
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                32
+            ],
+            "zarr_format": 2
+        },
+        "scale_3/x/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "x"
+            ]
+        },
+        "scale_3/y/.zarray": {
+            "chunks": [
+                40
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                40
+            ],
+            "zarr_format": 2
+        },
+        "scale_3/y/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "y"
+            ]
+        },
+        "scale_3/z/.zarray": {
+            "chunks": [
+                24
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                24
+            ],
+            "zarr_format": 2
+        },
+        "scale_3/z/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "z"
+            ]
+        },
+        "x/.zarray": {
+            "chunks": [
+                256
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                256
+            ],
+            "zarr_format": 2
+        },
+        "x/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "x"
+            ]
+        },
+        "y/.zarray": {
+            "chunks": [
+                320
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                320
+            ],
+            "zarr_format": 2
+        },
+        "y/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "y"
+            ]
+        },
+        "z/.zarray": {
+            "chunks": [
+                192
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                192
+            ],
+            "zarr_format": 2
+        },
+        "z/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "z"
+            ]
+        }
+    },
+    "zarr_consolidated_format": 1
+}
