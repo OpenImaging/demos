@@ -25,6 +25,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "homepage": "https://openimaging.github.io/demos/multi-scale-chunked-compressed/build/",
   "browserslist": {
     "production": [
       ">0.2%",
