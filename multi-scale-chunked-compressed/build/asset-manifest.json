@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/demos/multi-scale-chunked-compressed/build/static/js/main.a425fbf2.chunk.js",
-    "main.js.map": "/demos/multi-scale-chunked-compressed/build/static/js/main.a425fbf2.chunk.js.map",
+    "main.js": "/demos/multi-scale-chunked-compressed/build/static/js/main.f3c63e54.chunk.js",
+    "main.js.map": "/demos/multi-scale-chunked-compressed/build/static/js/main.f3c63e54.chunk.js.map",
     "runtime-main.js": "/demos/multi-scale-chunked-compressed/build/static/js/runtime-main.3d569c80.js",
     "runtime-main.js.map": "/demos/multi-scale-chunked-compressed/build/static/js/runtime-main.3d569c80.js.map",
     "static/js/2.50e1e6c3.chunk.js": "/demos/multi-scale-chunked-compressed/build/static/js/2.50e1e6c3.chunk.js",
@@ -10,12 +10,13 @@
     "static/js/3.8e49d48f.chunk.js.map": "/demos/multi-scale-chunked-compressed/build/static/js/3.8e49d48f.chunk.js.map",
     "index.html": "/demos/multi-scale-chunked-compressed/build/index.html",
     "static/js/2.50e1e6c3.chunk.js.LICENSE.txt": "/demos/multi-scale-chunked-compressed/build/static/js/2.50e1e6c3.chunk.js.LICENSE.txt",
+    "static/media/large-thumb.57aa75f5.png": "/demos/multi-scale-chunked-compressed/build/static/media/large-thumb.57aa75f5.png",
     "static/media/medium-thumb.10fe9b8b.png": "/demos/multi-scale-chunked-compressed/build/static/media/medium-thumb.10fe9b8b.png",
     "static/media/small-thumb.7bc46f9c.png": "/demos/multi-scale-chunked-compressed/build/static/media/small-thumb.7bc46f9c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3d569c80.js",
     "static/js/2.50e1e6c3.chunk.js",
-    "static/js/main.a425fbf2.chunk.js"
+    "static/js/main.f3c63e54.chunk.js"
   ]
 }

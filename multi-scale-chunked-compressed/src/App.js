@@ -18,6 +18,7 @@ import { ColorModeSwitcher } from './ColorModeSwitcher';
 
 import smallThumb from './images/small-thumb.png'
 import mediumThumb from './images/medium-thumb.png'
+import largeThumb from './images/large-thumb.png'
 
 function App() {
   return (
@@ -66,6 +67,12 @@ function App() {
                 </Box>
                 <Box>
                   <Heading as="h5" size="md">Large</Heading>
+                    <Link href="https://kitware.github.io/itk-vtk-viewer/app/?image=https://data.kitware.com/api/v1/file/6012e33a2fa25629b91dc8b7/download/large.nii.gz" target="_blank" rel="noopener noreferrer">
+                      <Image boxSize="sm" src={largeThumb} alt="Large test data"/>
+                        <Text as="em">Size: </Text><Text>512 x 512 x 370 voxels</Text>
+                        <Text as="em">Spacing: </Text><Text>0.71 x 0.71 x 0.75 mm</Text>
+                    </Link>
+                  <Link color="teal.500" href="https://wiki.idoimaging.com/index.php?title=Sample_Data" target="_blank" rel="noopener noreferrer">Source</Link>
                 </Box>
               </HStack>
             </Box>
