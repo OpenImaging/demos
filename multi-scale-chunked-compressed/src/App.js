@@ -10,10 +10,14 @@ import {
   Heading,
   StackDivider,
   OrderedList,
+  UnorderedList,
   ListItem,
+  Image,
   theme,
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
+
+import smallThumb from './images/small-thumb.png'
 
 function App() {
   return (
@@ -44,7 +48,10 @@ function App() {
               <HStack divider={<StackDivider borderColor="gray.600" />}>
                 <Box>
                   <Heading as="h5" size="md">Small</Heading>
-                    <Link href="https://github.com/OpenImaging/miqa/tree/master/sample_data/1_type1" target="_blank" rel="noopener noreferrer">
+                    <Link href="https://kitware.github.io/itk-vtk-viewer/app/?image=https://openimaging.github.io/demos/multi-scale-chunked-compressed/build/data/small.nii.gz" target="_blank" rel="noopener noreferrer">
+                      <Image boxSize="sm" src={smallThumb} alt="Small test data"/>
+                        <Text as="em">Size: </Text><Text>160 x 192 x 192 voxels</Text>
+                        <Text as="em">Spacing: </Text><Text>1 x 1.33 x 1.33 mm</Text>
                     </Link>
                   <Link color="teal.500" href="https://github.com/OpenImaging/miqa/tree/master/sample_data/1_type1" target="_blank" rel="noopener noreferrer">Source</Link>
                 </Box>
