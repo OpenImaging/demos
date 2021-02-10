@@ -1,0 +1,22 @@
+{
+    "multiscales": [
+        {
+            "datasets": [
+                {
+                    "path": "0/medium.nii.gz"
+                },
+                {
+                    "path": "1/medium.nii.gz"
+                },
+                {
+                    "path": "2/medium.nii.gz"
+                },
+                {
+                    "path": "3/medium.nii.gz"
+                }
+            ],
+            "name": "medium.nii.gz",
+            "version": "0.1"
+        }
+    ]
+}
