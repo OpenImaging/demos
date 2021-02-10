@@ -1,4 +1,0 @@
-,Uncompressed Nifti (MB),Gzipped Nifti (MB),Zarr Zstd (MB),Zarr Zstd Multiscale (MB)
-Small,12,3.4,2.9,3.5
-Medium,31,13,11,12
-Large,186,82,65,
