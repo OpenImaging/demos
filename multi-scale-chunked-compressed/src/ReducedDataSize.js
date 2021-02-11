@@ -51,7 +51,7 @@ function ReducedDataSize() {
             orientation: 'h',
           },
         ]}
-          layout={ { plot_bgcolor: 'rgb(234, 234, 234)', xaxis: { title: 'Dataset' }, yaxis: { title: 'Size (MB)' }, barmode: 'group', width: 800, height: 480, title: 'Reduced Data Size <br> Lower is better'} }
+          layout={ { plot_bgcolor: 'rgb(234, 234, 234)', yaxis: { title: 'Dataset' }, xaxis: { title: 'Size (MB)' }, barmode: 'group', width: 800, height: 480, title: 'Reduced Data Size <br> Lower is better'} }
       />
             <Text>The Nifti files have Zlib compression while the Zarr data have <Link color="teal.500" href="https://blosc.org/" target="_blank" rel="noopener noreferrer">Blosc Zstd</Link> compression.</Text>
     </Box>
