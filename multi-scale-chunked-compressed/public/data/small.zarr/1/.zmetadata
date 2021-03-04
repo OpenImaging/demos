@@ -4,7 +4,7 @@
         ".zgroup": {
             "zarr_format": 2
         },
-        "small.nii.gz/.zarray": {
+        "small/.zarray": {
             "chunks": [
                 64,
                 64,
@@ -28,7 +28,7 @@
             ],
             "zarr_format": 2
         },
-        "small.nii.gz/.zattrs": {
+        "small/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "z",
                 "y",
@@ -49,6 +49,12 @@
                     0.0,
                     0.0,
                     1.0
+                ]
+            ],
+            "ranges": [
+                [
+                    0.0,
+                    192.0
                 ]
             ]
         },

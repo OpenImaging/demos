@@ -3,16 +3,16 @@
         {
             "datasets": [
                 {
-                    "path": "0/small.nii.gz"
+                    "path": "0/small"
                 },
                 {
-                    "path": "1/small.nii.gz"
+                    "path": "1/small"
                 },
                 {
-                    "path": "2/small.nii.gz"
+                    "path": "2/small"
                 }
             ],
-            "name": "small.nii.gz",
+            "name": "small",
             "version": "0.1"
         }
     ]
