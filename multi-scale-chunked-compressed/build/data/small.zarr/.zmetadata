@@ -5,16 +5,16 @@
                 {
                     "datasets": [
                         {
-                            "path": "0/small.nii.gz"
+                            "path": "0/small"
                         },
                         {
-                            "path": "1/small.nii.gz"
+                            "path": "1/small"
                         },
                         {
-                            "path": "2/small.nii.gz"
+                            "path": "2/small"
                         }
                     ],
-                    "name": "small.nii.gz",
+                    "name": "small",
                     "version": "0.1"
                 }
             ]
@@ -26,7 +26,7 @@
         "0/.zgroup": {
             "zarr_format": 2
         },
-        "0/small.nii.gz/.zarray": {
+        "0/small/.zarray": {
             "chunks": [
                 64,
                 64,
@@ -50,7 +50,7 @@
             ],
             "zarr_format": 2
         },
-        "0/small.nii.gz/.zattrs": {
+        "0/small/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "z",
                 "y",
@@ -71,6 +71,12 @@
                     0.0,
                     0.0,
                     1.0
+                ]
+            ],
+            "ranges": [
+                [
+                    0.0,
+                    238.0
                 ]
             ]
         },
@@ -153,7 +159,7 @@
         "1/.zgroup": {
             "zarr_format": 2
         },
-        "1/small.nii.gz/.zarray": {
+        "1/small/.zarray": {
             "chunks": [
                 64,
                 64,
@@ -177,7 +183,7 @@
             ],
             "zarr_format": 2
         },
-        "1/small.nii.gz/.zattrs": {
+        "1/small/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "z",
                 "y",
@@ -198,6 +204,12 @@
                     0.0,
                     0.0,
                     1.0
+                ]
+            ],
+            "ranges": [
+                [
+                    0.0,
+                    192.0
                 ]
             ]
         },
@@ -280,7 +292,7 @@
         "2/.zgroup": {
             "zarr_format": 2
         },
-        "2/small.nii.gz/.zarray": {
+        "2/small/.zarray": {
             "chunks": [
                 64,
                 64,
@@ -304,7 +316,7 @@
             ],
             "zarr_format": 2
         },
-        "2/small.nii.gz/.zattrs": {
+        "2/small/.zattrs": {
             "_ARRAY_DIMENSIONS": [
                 "z",
                 "y",
@@ -325,6 +337,12 @@
                     0.0,
                     0.0,
                     1.0
+                ]
+            ],
+            "ranges": [
+                [
+                    0.0,
+                    154.0
                 ]
             ]
         },
