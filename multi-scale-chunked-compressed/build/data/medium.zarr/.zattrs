@@ -3,19 +3,19 @@
         {
             "datasets": [
                 {
-                    "path": "0/medium.nii.gz"
+                    "path": "0/medium"
                 },
                 {
-                    "path": "1/medium.nii.gz"
+                    "path": "1/medium"
                 },
                 {
-                    "path": "2/medium.nii.gz"
+                    "path": "2/medium"
                 },
                 {
-                    "path": "3/medium.nii.gz"
+                    "path": "3/medium"
                 }
             ],
-            "name": "medium.nii.gz",
+            "name": "medium",
             "version": "0.1"
         }
     ]

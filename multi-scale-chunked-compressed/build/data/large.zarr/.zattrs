@@ -3,22 +3,22 @@
         {
             "datasets": [
                 {
-                    "path": "0/large.nii.gz"
+                    "path": "0/large"
                 },
                 {
-                    "path": "1/large.nii.gz"
+                    "path": "1/large"
                 },
                 {
-                    "path": "2/large.nii.gz"
+                    "path": "2/large"
                 },
                 {
-                    "path": "3/large.nii.gz"
+                    "path": "3/large"
                 },
                 {
-                    "path": "4/large.nii.gz"
+                    "path": "4/large"
                 }
             ],
-            "name": "large.nii.gz",
+            "name": "large",
             "version": "0.1"
         }
     ]
